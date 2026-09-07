@@ -1,10 +1,10 @@
-# ⚡ Calculadora de Consumo Elétrico
+Calculadora de Consumo Elétrico
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
 [![GitHub](https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-black?logo=github)](https://github.com/)
 [![Energia](https://img.shields.io/badge/Energia-Consumo%20el%C3%A9trico-yellow)](#)
 
-## 🎯 Objetivo
+Objetivo
 
 A **Calculadora de Consumo Elétrico** é um programa desenvolvido em Python para estimar quanto um aparelho elétrico consome de energia por mês, usando informações simples de uso.
 
@@ -15,11 +15,11 @@ O usuário informa:
 
 O programa calcula o consumo mensal estimado em **kWh/mês** e também apresenta uma estimativa de custo usando o valor fixo de **R$ 0,75 por kWh**.
 
-## 🐍 Linguagem utilizada
+Linguagem utilizada
 
 O projeto foi desenvolvido em **Python**.
 
-## 🧮 Fórmula utilizada
+Fórmula utilizada
 
 O consumo mensal é calculado pela fórmula:
 
@@ -36,7 +36,7 @@ O custo estimado é calculado por:
 
 > O valor de R$ 0,75/kWh é apenas um valor fixo de exemplo, conforme a proposta da atividade. O valor real da tarifa pode variar.
 
-## ▶️ Como executar
+Como executar
 
 1. Tenha o Python 3 instalado.
 2. Baixe ou clone este repositório.
@@ -49,7 +49,7 @@ python app.py
 
 5. Informe os dados solicitados pelo programa.
 
-## 💡 Exemplo
+Exemplo
 
 Se um aparelho tiver potência de **500 W** e for usado por **3 horas por dia**:
 
@@ -63,7 +63,7 @@ Consumo estimado: 45.00 kWh/mês
 Custo estimado: R$ 33.75/mês
 ```
 
-## 📁 Estrutura do projeto
+Estrutura do projeto
 
 ```text
 consumo-energia/
@@ -71,8 +71,8 @@ consumo-energia/
 └── README.md
 ```
 
-## 🛠️ Tecnologias
+##Tecnologias
 
-- 🐍 Python
-- 🐙 GitHub
-- ⚡ Cálculo de consumo de energia
+-  Python
+-  GitHub
+-  Cálculo de consumo de energia
