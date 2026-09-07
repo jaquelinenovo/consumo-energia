@@ -1,42 +1,49 @@
-Calculadora de Consumo Elétrico
+# ⚡ Calculadora de Consumo Elétrico
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
-[![GitHub](https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-black?logo=github)](https://github.com/)
-[![Energia](https://img.shields.io/badge/Energia-Consumo%20el%C3%A9trico-yellow)](#)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github\&logoColor=white)
+![Energia](https://img.shields.io/badge/Energia-Consumo%20Elétrico-yellow)
 
-Objetivo
+## Objetivo
 
-A **Calculadora de Consumo Elétrico** é um programa desenvolvido em Python para estimar quanto um aparelho elétrico consome de energia por mês, usando informações simples de uso.
+A **Calculadora de Consumo Elétrico** é um programa desenvolvido em Python que calcula uma estimativa do consumo de energia elétrica de um aparelho durante um mês.
 
-O usuário informa:
-- Nome do aparelho;
-- Potência do aparelho em watts (W);
-- Tempo médio de uso diário em horas.
+Para realizar o cálculo, o usuário informa:
 
-O programa calcula o consumo mensal estimado em **kWh/mês** e também apresenta uma estimativa de custo usando o valor fixo de **R$ 0,75 por kWh**.
+* Nome do aparelho
+* Potência em watts (W)
+* Tempo médio de uso por dia, em horas
 
-Linguagem utilizada
+Além do consumo mensal, o programa também calcula uma estimativa de custo utilizando o valor de **R$ 0,75 por kWh**.
 
-O projeto foi desenvolvido em **Python**.
+## Linguagem utilizada
 
-Fórmula utilizada
+O projeto foi desenvolvido utilizando **Python**.
 
-O consumo mensal é calculado pela fórmula:
+## Fórmula utilizada
 
-`consumoMensal = (potência × horasDia × 30) / 1000`
+O consumo mensal é calculado através da seguinte fórmula:
 
-- **potência:** potência do aparelho em watts (W);
-- **horasDia:** média de horas de uso por dia;
-- **30:** estimativa de dias de uso no mês;
-- **1000:** conversão de Wh para kWh.
+```text
+consumoMensal = (potencia × horasDia × 30) / 1000
+```
 
-O custo estimado é calculado por:
+Onde:
 
-`custo = consumoMensal × 0,75`
+* **potencia** = potência do aparelho em watts (W)
+* **horasDia** = quantidade média de horas de uso por dia
+* **30** = quantidade estimada de dias no mês
+* **1000** = conversão de Wh para kWh
 
-> O valor de R$ 0,75/kWh é apenas um valor fixo de exemplo, conforme a proposta da atividade. O valor real da tarifa pode variar.
+Para calcular o custo:
 
-Como executar
+```text
+custo = consumoMensal × 0,75
+```
+
+O valor de **R$ 0,75 por kWh** é apenas um valor fixo utilizado como exemplo na atividade.
+
+## Como executar
 
 1. Tenha o Python 3 instalado.
 2. Baixe ou clone este repositório.
@@ -49,13 +56,15 @@ python app.py
 
 5. Informe os dados solicitados pelo programa.
 
-Exemplo
+## Exemplo
 
-Se um aparelho tiver potência de **500 W** e for usado por **3 horas por dia**:
+Considerando um aparelho com potência de **500 W**, utilizado durante **3 horas por dia**:
 
-`(500 × 3 × 30) / 1000 = 45 kWh/mês`
+```text
+(500 × 3 × 30) / 1000 = 45 kWh/mês
+```
 
-Resultado esperado:
+Resultado:
 
 ```text
 Aparelho: Exemplo
@@ -63,7 +72,7 @@ Consumo estimado: 45.00 kWh/mês
 Custo estimado: R$ 33.75/mês
 ```
 
-Estrutura do projeto
+## Estrutura do projeto
 
 ```text
 consumo-energia/
@@ -71,8 +80,13 @@ consumo-energia/
 └── README.md
 ```
 
-##Tecnologias
+## Tecnologias
 
--  Python
--  GitHub
--  Cálculo de consumo de energia
+* Python
+* GitHub
+* Shields.io
+* Cálculo de consumo de energia
+
+## Sobre o projeto
+
+Projeto desenvolvido como atividade de iniciação em tecnologia, com o objetivo de praticar programação em Python, organização de arquivos e publicação de projetos no GitHub.
